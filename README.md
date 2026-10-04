@@ -7,7 +7,7 @@ V0.1 版本由 deepseek 撰写，ChatGPT 审查后修改成 V0.2 版，最后也
 
 > 先把门锁好，再把家搬进去。
 
-一个给 **AI Agent**（Claude Code / OpenCode / DeepSeek Harness 等）用的技能包：当你说"我刚买了服务器，不知道干什么"时，AI 会按这个 skill 带你完成服务器的安全加固全流程。也可以直接当成参考手册来用。
+一个给 **AI Agent**（Claude Code / OpenCode / DeepSeek Harness 等）用的服务器加固操作规范手册，将手册提供给 AI Agent，让它先阅读并根据当前服务器环境制定分阶段执行清单。每一步都应先检查条件、执行操作、验证结果；涉及高风险变更时必须取得用户确认。
 
 ## 给谁用
 
